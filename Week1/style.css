@@ -1,0 +1,24 @@
+header{
+  background: #666666;
+  text-align: center;
+}
+
+h1{
+  color:red;
+  font-size: 300%;
+  }
+h2{
+  font-family: Arial;
+  color:Blue;
+  text-align: center;
+  }
+details{
+  font-style: italic;
+}
+summary{
+    font-style: normal;
+}
+
+footer{
+background: red;
+}
