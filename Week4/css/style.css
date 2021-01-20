@@ -3,6 +3,7 @@ header{
   text-align: center;
   padding: 15px;
 
+
 }
 
 body{
@@ -26,29 +27,19 @@ summary{
 
 nav a{
   display: inline-block;
-
+  font-weight: bold;
   color: #ffffff;
   background-color: #0006CC;
-
   width: 200px;
+  text-align: center;
   padding: 4px;
+  text-decoration: none;
   margin: 10px;
 
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-
-  transition-property: : color, border-radius;
-  transition-duration: 0.25s;
-  transition-timing-function: linear;
-  transition-delay: 0.1s
-
 }
-
 a:hover{
   background:#B3B3B3;
   color: #0066CC;
-  border-radius: 15%;
 }
 a:focus{
   background:#B3B3B3;
@@ -57,12 +48,10 @@ a:focus{
 a:active{
   border: 9px solid #000000;
 }
-
 footer{
 background: red;
 clear: both;
 }
-
 section{
   width: 30%;
   display: inline-block;
@@ -77,11 +66,6 @@ p{
   padding:10px 5px;
   background: black;
 }
-
-
-
-
-
 .fancy{
   font-family: cursive;
   background: red;
@@ -90,37 +74,4 @@ p{
 .plain{
   font-family: Times, serif;
   color: blue;
-}
-.button{
-  display : block;
-  background-color: green;
-  width: 100px;
-  height: 100px;
-  padding: 4%;
-  margin: 1%;
-  clear: both;
-  margin-left: 43%;
-  text-align: center;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  -webkit-transition: -webkit-transform 0.5s,border-radius,color, background-color;
-
-  transition-duration: 0.5s;
-  transition-timing-function: linear;
-  transition-delay: 0.1s
-
-}
-.button:hover{
-  background-color: #4CAF50;
-  color: white;
-  border-radius = 50%;
-
-}
-.button:active{
-  background-color: red;
-  color:white;
-  webkit-transform:translateX(100px);
-  border: none;
-  transform:translateX(100px);
 }

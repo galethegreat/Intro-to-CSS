@@ -1,0 +1,175 @@
+/* Week 4 */
+header {
+  background-color: rgba(255,255,255,1);
+  background-image: url("../images/flywheel.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 400%;
+  margin-bottom: none;
+
+}
+body{
+  padding: 15px;
+  margin: 3%;
+  font-size : 125%;
+
+}
+
+section {
+  background-color: #A9A9A9	;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size : 150%;
+  color: 	rgba(255,255,255,1);
+
+}
+
+h2 {
+  text-transform: uppercase;
+  color: 	#00008B;
+  margin:0;
+}
+
+nav a {
+  display: inline-block;
+  color: #ffffff;
+  background-color: rgba(0,50,204,0.8);
+  width: 200px;
+  padding: 4px;
+  margin: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition-property: : color, border-radius;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+  transition-delay: 0.1s
+
+
+}
+nav a:first-child {
+
+margin-left: 25%;
+
+}
+a:hover{
+  background:#B3B3B3;
+  color: #0066CC;
+  border-radius: 15%;
+}
+a:focus{
+  background:#B3B3B3;
+  color: #0066CC;
+}
+a:active{
+  border: 3px solid #000000;
+}
+
+img {
+
+  display: block;
+  width:  300px;
+  height: 150px;
+  border: 2px solid #000000;
+
+  margin-bottom: 2%;
+}
+.active{
+  display: inline-block;
+  color: #ffffff;
+  background-color: rgba(0,50,204,1);
+  width: 200px;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.left{
+
+  display : inline-block;
+  background-color: rgba(250,250,170,1);
+  float:left;
+}
+.right{
+  background-color: rgba(0,100,140,.2);
+
+}
+
+
+tr{
+  color : rgba(0,0,0,0.6);
+  opacity :0.8;
+  transition-property: opacity ;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+
+
+
+}
+tr:first-child{
+  color : rgba(0,0,0,0.6);
+  opacity :1;
+
+}
+
+tr:hover{
+
+    opacity :1;
+}
+tr:nth-child(odd) {
+	background: rgba(255,109,5,0.8);
+
+}
+
+tr:nth-child(even) {
+	background: rgba(255,84,219,0.8);
+
+}
+tr:hover{
+  color : rgba(0,0,0,1);
+}
+
+
+table {
+
+
+	/* border-radius: 0 0 25px 25px; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+
+}
+td:first-child{
+  text-align: left;
+
+
+}
+
+td{
+
+  font-family: "Times New Roman", Times, serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size : 125%;
+  padding: 1%;
+  color:rgba(10,10,10,1);
+  line-height: 1.6;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 2px ;
+}
+
+th{
+  background-image: linear-gradient(to right, rgba(255,84,219,0.5) , rgba(255,109,5,0.5));
+  color : rgba(1,134,24,1);
+  font-size : 150%;
+  font-weight: bold;
+  line-height: 2.6;
+  border: 3px solid black;
+  border-bottom-width: thick;
+	-webkit-border-radius: 15px 15px 0 0;
+
+}
